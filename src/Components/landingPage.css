@@ -1,0 +1,125 @@
+.container {
+  width: 100%;
+  min-height: 100vh;
+  height: 100vh;
+}
+
+.containerCard {
+  width: 200px;
+  margin: 20px;
+  background: purple;
+  padding: 20px 10px;
+  border-radius: 10px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.containerWrapper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.containerCardRow {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 50px;
+  width: 100%;
+}
+
+.containerCardRowImage {
+  width: 50px;
+  height: 50px;
+  border-radius: 30px;
+  object-fit: cover;
+}
+.containerCardRowCancel {
+  font-size: 20px;
+  font-weight: 700;
+  margin-left: 10px;
+  color: red;
+  cursor: pointer;
+}
+.containerCardAlign {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.containerQuote {
+  margin: 10px 0;
+  color: white;
+  font-style: italic;
+  text-align: center;
+}
+.containerName {
+  margin: 10px 0;
+  color: yellow;
+  font-style: Bold;
+  text-align: center;
+  font-size: 20px;
+  font-family: cursive;
+}
+.containerTime {
+  font-size: small;
+}
+
+.container_input {
+  display: flex;
+  /* justify-content: space-between; */
+  align-items: center;
+
+  width: 100%;
+  margin: 100px 500px;
+}
+
+.container_inputimage {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  background-color: red;
+  border: 5px solid white;
+  object-fit: cover;
+  margin-right: 20px;
+}
+
+.container_inputsFile {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+}
+.container_inputSingle {
+  width: 100%;
+  height: 30px;
+  margin: 5px 0;
+  border-radius: 3px;
+  padding-left: 10px;
+}
+.container_button {
+  width: 80%;
+  height: 40px;
+  font-family: poppins;
+  margin-top: 10px;
+  text-transform: uppercase;
+  border-radius: 300px;
+  background-color: red;
+  color: white;
+  outline: none;
+  border: 0;
+  transition: all 350ms;
+  transform: scale(1);
+}
+
+.container_button:hover {
+  cursor: pointer;
+  background-color: powderblue;
+  color: black;
+  transform: (1.03);
+}
+
+.container_buttonDiv {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
